@@ -88,7 +88,7 @@ docker-compose run --rm api python3 manage.py populatedb --createsuperuser
 
 7. Run the application:
 ```shell
-docker-compose up
+docker-compose up --build --force-recreate -d
 ```
 *Both Storefront and Dashboard are quite big frontend projects and it might take up to a few minutes for them to compile depending on your CPU. If nothing shows up on port 3001 or 9000, please wait until `Compiled successfully` shows in the console output.*
 
