@@ -50,7 +50,7 @@ To fetch fresh repository, follow [section below](#how-to-clone-the-repository)
 To clone the repository, run the following command
 
 ```
-git clone https://github.com/saleor/saleor-platform.git --recursive --jobs 3
+git clone https://github.com/Satcomx00-x00/fork-saleor-platform.git --recursive --jobs 3
 ```
 
 ## How to run it?
